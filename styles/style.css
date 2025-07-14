@@ -21,6 +21,16 @@
     font-size: 16px;
 }
 
+.price-color{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn-secondary{
+    background: #000000;
+}
+
 /* nav items */
 .nav-content {
     display: flex;
@@ -73,7 +83,7 @@
 /* banner styles */
 .banner {
     background-color: #FEEAE9;
-    margin-top: 63px;
+    margin: 63px;
     border-radius: 10px;
 
 }
@@ -111,20 +121,27 @@ span {
 
 /* categories styles */
 
+.categories{
+    padding: 0px 156px;
+}
+
 .categories-title {
     font-size: 36px;
     font-weight: 600;
     color: #1F1F1F;
+    margin: 24px;
 }
 
 .categories-container {
     display: flex;
+    gap: 26px;
 }
 
 .categories-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 24px;
 }
 
 .categories-content-bg-1 {
@@ -135,5 +152,109 @@ span {
     padding: 33px;
     border: none;
     border-radius: 10px;
+
+}
+
+.categories-content-bg-2 {
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 33px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.categories-content-bg-3 {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 33px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* shoes & backpack styles */
+
+.shoes-backpack{
+    background-color: #F4F4F4;
+    padding: 46px 156px;
+
+}
+
+.shoes-container {
+    display: flex;
+    gap: 22px;
     
+}
+.shoes-content{
+    text-align: center;
+    padding: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.shoes-content-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.shoes-content img {
+    width: 290px;
+    height: 210px;
+    margin-bottom: 22px;
+}
+.shoes-content-description{
+    font-size:16px;
+    font-weight: 400;
+    color: #4E4E4E;
+    margin-bottom: 16px;
+}
+
+.shoes-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 24px;
+}
+
+.backpack-container {
+    display: flex;
+    gap: 22px;
+    
+}
+.backpack-content{
+    text-align: center;
+    padding: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.backpack-content-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.backpack-content img {
+    width: 290px;
+    height: 210px;
+    margin-bottom: 22px;
+}
+.backpack-content-description{
+    font-size:16px;
+    font-weight: 400;
+    color: #4E4E4E;
+    margin-bottom: 16px;
+}
+
+.backpack-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 24px;
 }
