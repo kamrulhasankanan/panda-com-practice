@@ -1,5 +1,9 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
     max-width: 1440px;
     margin: auto;
 }
@@ -21,13 +25,13 @@
     font-size: 16px;
 }
 
-.price-color{
+.price-color {
     color: #000000;
     font-size: 24px;
     font-weight: 500;
 }
 
-.btn-secondary{
+.btn-secondary {
     background: #000000;
 }
 
@@ -121,8 +125,9 @@ span {
 
 /* categories styles */
 
-.categories{
-    padding: 0px 156px;
+.categories {
+    padding: 0px 100px;
+    
 }
 
 .categories-title {
@@ -179,7 +184,7 @@ span {
 
 /* shoes & backpack styles */
 
-.shoes-backpack{
+.shoes-backpack {
     background-color: #F4F4F4;
     padding: 46px 156px;
 
@@ -188,9 +193,10 @@ span {
 .shoes-container {
     display: flex;
     gap: 22px;
-    
+
 }
-.shoes-content{
+
+.shoes-content {
     text-align: center;
     padding: 24px;
     border: none;
@@ -198,7 +204,7 @@ span {
     background-color: white;
 }
 
-.shoes-content-title{
+.shoes-content-title {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
@@ -209,8 +215,9 @@ span {
     height: 210px;
     margin-bottom: 22px;
 }
-.shoes-content-description{
-    font-size:16px;
+
+.shoes-content-description {
+    font-size: 16px;
     font-weight: 400;
     color: #4E4E4E;
     margin-bottom: 16px;
@@ -225,9 +232,10 @@ span {
 .backpack-container {
     display: flex;
     gap: 22px;
-    
+
 }
-.backpack-content{
+
+.backpack-content {
     text-align: center;
     padding: 24px;
     border: none;
@@ -235,7 +243,7 @@ span {
     background-color: white;
 }
 
-.backpack-content-title{
+.backpack-content-title {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
@@ -246,8 +254,9 @@ span {
     height: 210px;
     margin-bottom: 22px;
 }
-.backpack-content-description{
-    font-size:16px;
+
+.backpack-content-description {
+    font-size: 16px;
     font-weight: 400;
     color: #4E4E4E;
     margin-bottom: 16px;
@@ -257,4 +266,46 @@ span {
     font-size: 36px;
     font-weight: 600;
     margin: 24px;
+}
+
+/* footer styles */
+
+.stay-touch {
+    background-color: #FFF2F1;
+    margin: 60px auto;
+    text-align: center;
+    padding: 146px 264px
+}
+
+.stay-touch-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.stay-touch-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-top: 5px;
+}
+
+.stay-touch input {
+    border: none;
+    width: 500px;
+    height: 53px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px 5px 20px 5px;
+}
+.stay-touch input:hover{
+    color: rgb(63, 7, 248);
+    background-color: aquamarine;
+}
+
+.stay-touch .btn-primary{
+    border-radius: 20px 5px 20px 5px;
+}
+.stay-touch .btn-primary:hover{
+    background: #3c3b3bbb;
 }
