@@ -3,11 +3,6 @@
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 1440px;
-    margin: auto;
-}
-
 /* font styles */
 .poppins-normal {
     font-family: "Poppins", sans-serif;
@@ -16,6 +11,12 @@
 }
 
 /* shared styles */
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .btn-primary {
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
     padding: 14px 20px 14px 20px;
@@ -23,6 +24,9 @@
     border-radius: 6px;
     color: #FFFFFF;
     font-size: 16px;
+}
+.btn-primary:hover{
+    background: rgba(4, 223, 121, 0.92);
 }
 
 .price-color {
@@ -33,6 +37,10 @@
 
 .btn-secondary {
     background: #000000;
+}
+
+.btn-secondary:hover{
+    background: #5197e7ce;
 }
 
 /* nav items */
@@ -96,10 +104,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 147px;
 }
 
 .banner-container img {
     border-radius: 10px;
+    width: 402px;
+    height: 378px;
 }
 
 .banner-content {
@@ -127,7 +138,7 @@ span {
 
 .categories {
     padding: 0px 100px;
-    
+
 }
 
 .categories-title {
@@ -202,6 +213,7 @@ span {
     border: none;
     border-radius: 20px;
     background-color: white;
+    box-shadow: -2px 7px 18px -3px rgba(0, 0, 0, 0.75);
 }
 
 .shoes-content-title {
@@ -241,6 +253,7 @@ span {
     border: none;
     border-radius: 20px;
     background-color: white;
+    box-shadow: -2px 7px 18px -3px rgba(0, 0, 0, 0.75);
 }
 
 .backpack-content-title {
@@ -298,14 +311,16 @@ span {
     font-size: 18px;
     border-radius: 20px 5px 20px 5px;
 }
-.stay-touch input:hover{
+
+.stay-touch input:hover {
     color: rgb(63, 7, 248);
     background-color: aquamarine;
 }
 
-.stay-touch .btn-primary{
+.stay-touch .btn-primary {
     border-radius: 20px 5px 20px 5px;
 }
-.stay-touch .btn-primary:hover{
+
+.stay-touch .btn-primary:hover {
     background: #3c3b3bbb;
 }
