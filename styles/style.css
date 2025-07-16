@@ -325,3 +325,59 @@ span {
 .stay-touch .btn-primary:hover {
     background: #3c3b3bbb;
 }
+
+/* Responsive media query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .categories-container{
+        flex-direction: column;
+    }
+    .categories{
+        padding: 20px;
+    }
+
+    .shoes-container{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .backpack-container{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .stay-touch {
+        padding: 20px;
+        margin: 30px;
+    }
+    .banner{
+        margin: 5px;
+        /* padding: 0px; */
+    }
+
+    .banner-container{
+        flex-direction: column;
+        gap: 5px;
+        /* padding: 0px; */
+    }
+    
+    .banner-container img{
+        width: 50%;
+        height: 50%;
+    }
+    .banner-content{
+        width: 50%;
+        padding: 0px;
+    }
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner-description{
+        padding: 5px;
+        margin: auto;
+    }
+}
